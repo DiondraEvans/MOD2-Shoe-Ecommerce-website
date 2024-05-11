@@ -169,7 +169,9 @@ article img{
     color: lightgrey;
     text-decoration:line-through;
 }
-
+#add-sub-cart button{
+    cursor: pointer;
+}
 #add-sub{
     display: flex;
     flex-direction: row;
