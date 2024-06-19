@@ -2,12 +2,14 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 *{
     box-sizing: border-box;
+    
 }
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
     margin:0; 
+    overflow-x: hidden;
 }
 
 html{
@@ -85,8 +87,8 @@ section{
     font-size: 140px;
 }
 #heroImg{
-    width: 100vw;
-    height: 500px;
+    width: 99vw;
+    height: fit-content;
     z-index: 0;
 }
 article{
@@ -121,7 +123,8 @@ article{
     width: 180px;
 }
 #mid{
-    border-top: 1px solid black;
+    background-color: white;
+    border: 1px solid black;
     color: black;
     text-align: center;
     width: 180px;
@@ -132,7 +135,9 @@ article{
     background-color:#ff7d1b;
 }
 #mid2{
-    border-top: 1px solid black;
+    background-color: white;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
     color: black;
     text-align: center;
     width: 180px;
@@ -143,7 +148,8 @@ article{
     background-color:#ff7d1b;
 }
 #bottom{
-    border-top: 1px solid black;
+    background-color: white;
+    border: 1px solid black;
     color: black;
     text-align: center;
     width: 180px;
