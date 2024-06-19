@@ -54,6 +54,7 @@ nav{
 }
 #menu li>p:hover{
     color:#ff7d1b;
+    cursor: pointer;
 }
 #line{
     width: 67%;

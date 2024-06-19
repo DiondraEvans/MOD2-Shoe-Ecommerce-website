@@ -43,6 +43,7 @@ nav{
 }
 #menu li>p:hover{
     color:#ff7d1b;
+    cursor: pointer;
 }
 #line{
     width: 67%;
@@ -169,7 +170,9 @@ article img{
     color: lightgrey;
     text-decoration:line-through;
 }
-
+#add-sub-cart button{
+    cursor: pointer;
+}
 #add-sub{
     display: flex;
     flex-direction: row;
