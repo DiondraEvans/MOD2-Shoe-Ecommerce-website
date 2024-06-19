@@ -43,6 +43,7 @@ nav{
 #menu li{
     list-style: none;
     padding: 10px;
+    cursor: pointer;
 }
 #menu a{
     text-decoration: none;
@@ -74,6 +75,7 @@ section{
     padding: 7px;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 #site-message{
     z-index: 2;
@@ -123,6 +125,7 @@ article{
     text-align: center;
     width: 180px;
     flex: 1;
+    cursor: pointer;
 }
 #mid:hover{
     background-color:#ff7d1b;
@@ -133,6 +136,7 @@ article{
     text-align: center;
     width: 180px;
     flex: 1;
+    cursor: pointer;
 }
 #mid2:hover{
     background-color:#ff7d1b;
@@ -143,6 +147,7 @@ article{
     text-align: center;
     width: 180px;
     flex: 1;
+    cursor: pointer;
 }
 #bottom:hover{
     background-color:#ff7d1b;

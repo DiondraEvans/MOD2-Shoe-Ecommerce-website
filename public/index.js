@@ -5,12 +5,15 @@ let homeLink =  document.getElementById('Home');
 homeLink.addEventListener('click', ()  => {
    window.location.href ="./index.html"
 })
-//for production reasons, commenting out the code
+// for production reasons, commenting out the code
 // let databaseLink =  document.getElementById('Add-Shoes');
 // databaseLink.addEventListener('click', ()  => {
 //    window.location.href ="./DatabaseForm/index.html"
 // })
-
+let portfoliolink = document.getElementById("contact");
+portfoliolink.addEventListener('click', () =>{
+    window.location.href="https://www.dev.deelightfuldesigns.com"
+})
 let display = document.getElementById("grid-of-shoes")
 let button = document.getElementById("search-button")
 
@@ -37,6 +40,7 @@ if(!search){
                     divBox.style.justifyContent ="center"
                     divBox.style.alignItems ="center"
                     divBox.style.textAlign="center"
+                    divBox.style.cursor="pointer"
                     let objectId = object._id
                     divBox.setAttribute('id',objectId);
                 

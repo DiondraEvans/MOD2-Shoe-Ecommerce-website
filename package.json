@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "build": "rm -rf build && mkdir build && cp -R public/* build/"
-
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Diondra Evans",
